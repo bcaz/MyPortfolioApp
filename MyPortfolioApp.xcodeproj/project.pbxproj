@@ -11,6 +11,11 @@
 		B40010B72C00042E00B5B5E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40010B62C00042E00B5B5E3 /* ContentView.swift */; };
 		B40010B92C00042F00B5B5E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B40010B82C00042F00B5B5E3 /* Assets.xcassets */; };
 		B40010BD2C00042F00B5B5E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B40010BC2C00042F00B5B5E3 /* Preview Assets.xcassets */; };
+		B40010C52C00073D00B5B5E3 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B40010C32C00073D00B5B5E3 /* Main.xcdatamodeld */; };
+		B40010C72C000BAC00B5B5E3 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40010C62C000BAC00B5B5E3 /* DataController.swift */; };
+		B4F2FA022C015942004D26E4 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F2FA012C015942004D26E4 /* SidebarView.swift */; };
+		B4F2FA042C015962004D26E4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F2FA032C015962004D26E4 /* DetailView.swift */; };
+		B4F2FA062C02B076004D26E4 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F2FA052C02B076004D26E4 /* Filter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		B40010B82C00042F00B5B5E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B40010BA2C00042F00B5B5E3 /* MyPortfolioApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyPortfolioApp.entitlements; sourceTree = "<group>"; };
 		B40010BC2C00042F00B5B5E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B40010C42C00073D00B5B5E3 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
+		B40010C62C000BAC00B5B5E3 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		B4F2FA012C015942004D26E4 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		B4F2FA032C015962004D26E4 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		B4F2FA052C02B076004D26E4 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,7 @@
 		B40010A82C00042E00B5B5E3 = {
 			isa = PBXGroup;
 			children = (
+				B4F2FA052C02B076004D26E4 /* Filter.swift */,
 				B40010B32C00042E00B5B5E3 /* MyPortfolioApp */,
 				B40010B22C00042E00B5B5E3 /* Products */,
 			);
@@ -57,6 +68,10 @@
 				B40010B82C00042F00B5B5E3 /* Assets.xcassets */,
 				B40010BA2C00042F00B5B5E3 /* MyPortfolioApp.entitlements */,
 				B40010BB2C00042F00B5B5E3 /* Preview Content */,
+				B40010C32C00073D00B5B5E3 /* Main.xcdatamodeld */,
+				B40010C62C000BAC00B5B5E3 /* DataController.swift */,
+				B4F2FA012C015942004D26E4 /* SidebarView.swift */,
+				B4F2FA032C015962004D26E4 /* DetailView.swift */,
 			);
 			path = MyPortfolioApp;
 			sourceTree = "<group>";
@@ -139,6 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4F2FA062C02B076004D26E4 /* Filter.swift in Sources */,
+				B40010C52C00073D00B5B5E3 /* Main.xcdatamodeld in Sources */,
+				B4F2FA042C015962004D26E4 /* DetailView.swift in Sources */,
+				B40010C72C000BAC00B5B5E3 /* DataController.swift in Sources */,
+				B4F2FA022C015942004D26E4 /* SidebarView.swift in Sources */,
 				B40010B72C00042E00B5B5E3 /* ContentView.swift in Sources */,
 				B40010B52C00042E00B5B5E3 /* MyPortfolioAppApp.swift in Sources */,
 			);
@@ -284,7 +304,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -322,7 +342,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -359,6 +379,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B40010C32C00073D00B5B5E3 /* Main.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B40010C42C00073D00B5B5E3 /* Main.xcdatamodel */,
+			);
+			currentVersion = B40010C42C00073D00B5B5E3 /* Main.xcdatamodel */;
+			name = Main.xcdatamodeld;
+			path = /Users/robertcaslin/workspace/MyPortfolioApp/MyPortfolioApp/Main.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B40010A92C00042E00B5B5E3 /* Project object */;
 }
